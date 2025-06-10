@@ -1,4 +1,3 @@
-/* ✅ Background + Font */
 body {
   background-color: #0b0c2a;
   font-family: 'Inter', sans-serif;
@@ -7,7 +6,6 @@ body {
   padding: 0;
 }
 
-/* ✅ Center Content Wrapper */
 .container {
   max-width: 800px;
   margin: 50px auto;
@@ -17,7 +15,6 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-/* ✅ Style Headings */
 h1 {
   text-align: center;
   color: #1e90ff;
@@ -26,7 +23,6 @@ h1 {
   font-weight: 600;
 }
 
-/* ✅ Style Paragraphs */
 p {
   font-size: 18px;
   line-height: 1.6;
@@ -37,7 +33,6 @@ p {
   border-radius: 6px;
 }
 
-/* ✅ Styled Box */
 .highlight-box {
   background-color: #e6f5ff;
   border: 2px dashed #007acc;
