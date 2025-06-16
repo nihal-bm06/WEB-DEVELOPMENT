@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stunning Responsive Grid</title>
+  <link rel="stylesheet" href="media.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+  <section class="container">
+    <h1><i data-lucide="grid"></i> Explore Our Creative Suite</h1>
+    <div class="grid">
+      <div class="card">
+        <i data-lucide="camera" class="icon"></i>
+        <h3>Photography</h3>
+        <p>Capture timeless moments with high-end visual storytelling and creative excellence.</p>
+      </div>
+      <div class="card">
+        <i data-lucide="code" class="icon"></i>
+        <h3>Development</h3>
+        <p>Build powerful web apps with clean code, scalability, and responsive design in mind.</p>
+      </div>
+      <div class="card">
+        <i data-lucide="music" class="icon"></i>
+        <h3>Music</h3>
+        <p>Create immersive audio experiences that connect emotions with elegant production tools.</p>
+      </div>
+      <div class="card">
+        <i data-lucide="pen-tool" class="icon"></i>
+        <h3>Design</h3>
+        <p>Craft stunning interfaces using intuitive design systems and sleek user flows.</p>
+      </div>
+      <div class="card">
+        <i data-lucide="cloud" class="icon"></i>
+        <h3>Cloud</h3>
+        <p>Deliver seamless deployment, data reliability, and cloud-native infrastructure.</p>
+      </div>
+      <div class="card">
+        <i data-lucide="film" class="icon"></i>
+        <h3>Video</h3>
+        <p>Empower storytelling with cinematic visuals and interactive video technology.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    lucide.createIcons();
+
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+</body>
+</html>
