@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stunning Tailwind Grid</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="tailwind.css" rel="stylesheet" />
+  
+</head>
+
+<body class="bg-gradient-to-br from-gray-100 to-gray-200 text-gray-800 transition-colors duration-300">
+  
+  <main class="max-w-7xl mx-auto px-6 py-12">
+    <header class="text-center mb-12">
+      <h1 class="text-4xl font-bold flex justify-center items-center gap-3" data-aos="fade-down">
+        <i data-lucide="grid"></i> Explore Our Creative Suite
+      </h1>
+    </header>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 hover:shadow-xl transition-transform duration-300" data-aos="zoom-in">
+        <i data-lucide="camera" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Photography</h3>
+        <p>Capture timeless moments with high-end visual storytelling and creative excellence.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 hover:shadow-xl transition-transform duration-300" data-aos="zoom-in" data-aos-delay="100">
+        <i data-lucide="code" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Development</h3>
+        <p>Build powerful web apps with clean code, scalability, and responsive design in mind.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 hover:shadow-xl transition-transform duration-300" data-aos="zoom-in" data-aos-delay="200">
+        <i data-lucide="music" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Music</h3>
+        <p>Create immersive audio experiences that connect emotions with elegant production tools.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 hover:shadow-xl transition-transform duration-300" data-aos="zoom-in" data-aos-delay="300">
+        <i data-lucide="pen-tool" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Design</h3>
+        <p>Craft stunning interfaces using intuitive design systems and sleek user flows.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 hover:shadow-xl transition-transform duration-300" data-aos="zoom-in" data-aos-delay="400">
+        <i data-lucide="cloud" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Cloud</h3>
+        <p>Deliver seamless deployment, data reliability, and cloud-native infrastructure.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:-translate-y-2 hover:shadow-xl transition-transform duration-300" data-aos="zoom-in" data-aos-delay="500">
+        <i data-lucide="film" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Video</h3>
+        <p>Empower storytelling with cinematic visuals and interactive video technology.</p>
+      </div>
+    </section>
+
+    <footer class="mt-16 text-center text-gray-600 text-sm" data-aos="fade-up">
+      <p>&copy; 2025 Creative Suite Inc. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    lucide.createIcons();
+
+    function toggleTheme() {
+    document.documentElement.classList.toggle('dark');
+  }
+  </script>
+</body>
+
+</html>
